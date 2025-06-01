@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login Window</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      width: 100%;
+    }
+
+    body {
+      background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-gId2Q2Yl0DkM9BoUUvfYmNmFn-3_O7blUA&s') no-repeat center center fixed;
+      background-size: cover;
+    }
+
+    .login-box {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 40px 30px;
+      border-radius: 10px;
+      width: 320px;
+      color: #fff;
+      text-align: center;
+    }
+
+    .login-box img.avatar {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin-bottom: 10px;
+      border: 2px solid #fff;
+    }
+
+    .login-box h2 {
+      margin-bottom: 20px;
+      font-size: 18px;
+      letter-spacing: 1px;
+    }
+
+    .login-box input[type="text"],
+    .login-box input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 4px;
+      background: #fff;
+      color: #000;
+    }
+
+    .login-box label {
+      font-size: 12px;
+      display: block;
+      text-align: left;
+      margin: 10px 0;
+    }
+
+    .login-box input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    .login-box label u {
+      color: #00bfff;
+      cursor: pointer;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 10px;
+      background-color: #00c900;
+      border: none;
+      border-radius: 4px;
+      color: white;
+      font-weight: bold;
+      margin-top: 10px;
+      cursor: pointer;
+    }
+
+
+  </style>
+</head>
+<body>
+
+<div class="login-box">
+  <img src="https://cdn-icons-png.freepik.com/256/4140/4140061.png?semt=ais_hybrid" class="avatar" alt="User Avatar"> <!-- Replace with your avatar -->
+  <h2>LOGIN WINDOW</h2>
+  <input type="text" placeholder="Your Email Address">
+  <input type="password" placeholder="Your Password">
+  <label><input type="checkbox"> Agree With <u>Terms & Conditions</u></label>
+  <button>Login</button>
+</div>
+
+</body>
+</html>
